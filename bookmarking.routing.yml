@@ -1,0 +1,7 @@
+bookmarking.bookmark:
+  path: '/bookmark/{node}/{uid}'
+  defaults:
+    _controller: '\Drupal\bookmarking\Controller\BookmarkingController::content'
+    _title: 'Bookmark controller'
+  requirements:
+    _permission: 'access content'

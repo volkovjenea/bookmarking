@@ -1,0 +1,12 @@
+name: Bookmarking
+description: 'Module that allows bookmarking of node pages for a certain user'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - image
+  - link
+  - node
+  - path
+  - text
+  - user
